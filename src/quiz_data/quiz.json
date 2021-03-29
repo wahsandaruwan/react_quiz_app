@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "question": "Which data type can you use to store decimal values?",
+            "choices": ["String", "Integer", "Float", "Boolean"],
+            "answer": "Float",
+            "explanation" : "The FLOAT data type stores double-precision floating-point numbers with up to 17 significant digits."
+        },
+        {
+            "question": "'OS' computer abbreviation usually means ?",
+            "choices": ["Order of Significance", "Open Software", "Operating System", "Optical Sensor"],
+            "answer": "Operating System",
+            "explanation" : "An operating system is system software that manages computer hardware, software resources, and provides common services for computer programs."
+        },
+        {
+            "question": "'.MOV' extension refers usually to what kind of file?",
+            "choices": ["Image file", "Animation/movie file", "Audio file", "MS Office document"],
+            "answer": "Animation/movie file",
+            "explanation" : "Apple QuickTime Movie encoding specifications and data compression standards are implemented into video data that is stored in the MOV format."
+        },
+        {
+            "question": "Which is a type of Electrically-Erasable Programmable Read-Only Memory?",
+            "choices": ["Flash", "Flange", "Fury", "FRAM"],
+            "answer": "Flash",
+            "explanation" : "It's commonly used for MP3 players, computer BIOS code and 'thumb' drives. Originally developed in Japan by Toshiba, it has become quite popular for products requiring non-volatile erasable memory."
+        },
+        {
+            "question": "Who developed Yahoo?",
+            "choices": ["Dennis Ritchie & Ken Thompson", "David Filo & Jerry Yang", "Vint Cerf & Robert Kahn", "Steve Case & Jeff Bezos"],
+            "answer": "David Filo & Jerry Yang",
+            "explanation" : "It was founded in 1994 by Jerry Yang and David Filo, graduate students at Stanford University in California."
+        },
+        {
+            "question": "'DB' computer abbreviation usually means ?",
+            "choices": ["Database", "Double Byte", "Data Block", "Driver Boot"],
+            "answer": "Database",
+            "explanation" : "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS)."
+        },
+        {
+            "question": "What do we call a collection of two or more computers that are located within a limited distance of each other and that are connected to each other directly or indirectly?",
+            "choices": ["Inernet", "Interanet", "Local Area Network", "Wide Area Network"],
+            "answer": "Local Area Network",
+            "explanation" : "A local area network is a computer network that interconnects computers within a limited area such as a residence, school, laboratory, university campus or office building."
+        },
+        {
+            "question": "What was the first ARPANET message?",
+            "choices": ["'lo'", "'hello world'", "'mary had a little lamb'", "'cyberspace, the final frontier'"],
+            "answer": "'lo'",
+            "explanation" : "The Advanced Research Projects Agency Network was the first wide-area packet-switching network with distributed control and one of the first networks to implement the TCP/IP protocol suite."
+        },
+        {
+            "question": "'.TXT' extension refers usually to what kind of file?",
+            "choices": ["Text File", "Image file", "Audio file", "Adobe Acrobat file"],
+            "answer": "Text File",
+            "explanation" : "A TXT file is a standard text document that contains plain text. It can be opened and edited in any text-editing or word-processing program."
+        }
+    ]
+}
