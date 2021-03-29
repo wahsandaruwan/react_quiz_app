@@ -1,38 +1,78 @@
+/* -----Reset----- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 20px;
+  color: #000;
+}
+
+/* -----Common----- */
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/3183135/pexels-photo-3183135.jpeg?auto=compress);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn{
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in;
+}
+
+/* -----App Comp----- */
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(29, 28, 26, 0.5);
+}
+
+/* -----Start Card----- */
+.App .start-card{
+  min-width: 30%;
+  background-color: #fff;
+  padding: 30px;
+  transition: all 0.3s ease-in;
+}
+
+.start-card:hover{
+  transform: scale(1.05);
+}
+
+.start-card .card-text{
+  background-color: #e74c3c;
+  padding: 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-text h1{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-text p{
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-text .btn-start{
+  padding: 15px 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text .btn-start:hover{
+  background-color: #000;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

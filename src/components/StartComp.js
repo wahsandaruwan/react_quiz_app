@@ -1,7 +1,7 @@
 // Starting Component
 function StartComp({startQuiz}) {
     return (
-        <div className="comp-card">
+        <div className="start-card">
             <div className="card-body">
                 <div className="card-text">
                     <h1>Begin the Tech Quiz!</h1>
