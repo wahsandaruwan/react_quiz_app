@@ -1,12 +1,12 @@
 // Starting Component
-function StartComp({startQuiz}) {
+function StartComp({onStartQuiz}) {
     return (
-        <div className="start-card">
+        <div className="card">
             <div className="card-body">
                 <div className="card-text">
                     <h1>Begin the Tech Quiz!</h1>
-                    <p>We wil wish you luck!</p>
-                    <button className="btn btn-start" onClick={startQuiz}>Start</button>
+                    <p>We wish you a best of luck!</p>
+                    <button className="btn" onClick={onStartQuiz}>Start</button>
                 </div>
             </div>
         </div>
